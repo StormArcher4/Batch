@@ -55,7 +55,7 @@ HBASE_PORT        = 9090
 CHECKPOINT_BATCH  = "hdfs:///data/cybersecurity/checkpoint_batch.json"
 
 HDFS_BASE = "hdfs://hadoop-master:9000/data/cybersecurity/batch"
-HDFS_LOGS = "hdfs://hadoop-master:9000/data/cybersecurity/logs/*/*/*/logs.csv"
+HDFS_LOGS = "hdfs://hadoop-master:9000/data/cybersecurity/logs"
 
 # ---------------------------------------------------------------------------
 # 2. Spark session

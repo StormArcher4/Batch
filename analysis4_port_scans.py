@@ -36,7 +36,7 @@ from pyspark.sql.types import (
 # ---------------------------------------------------------------------------
 # 1. Configuration
 # ---------------------------------------------------------------------------
-HDFS_INPUT       = "hdfs://hadoop-master:9000/data/cybersecurity/logs/*/*/*/logs.csv"
+HDFS_INPUT       = "hdfs://hadoop-master:9000/data/cybersecurity/logs"
 HDFS_OUTPUT      = "hdfs://hadoop-master:9000/data/cybersecurity/batch/port_scans"
 CHECKPOINT_BATCH = "hdfs:///data/cybersecurity/checkpoint_batch.json"
 
